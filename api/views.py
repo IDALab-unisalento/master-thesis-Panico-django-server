@@ -60,7 +60,7 @@ def add(request):
     data=request.data
     
     # Mongo client
-    mongo_client = MongoClient("mongodb+srv://andrea:N9oV7qkj01LnsvLx@footballdb.ssfhubn.mongodb.net/?retryWrites=true&w=majority")
+    mongo_client = MongoClient("*** YOUR KEY ***")
 
     # Open a DB 
     db = mongo_client.footballDB
